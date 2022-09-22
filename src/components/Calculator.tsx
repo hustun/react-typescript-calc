@@ -16,17 +16,14 @@ const Calculator = ({ message }: AppProps): JSX.Element => {
 
   const onChangeVal1 = (e: React.ChangeEvent<HTMLInputElement>) => {
     setVal1(parseInt(e.target.value));
-    console.log(e.target.value);
   };
 
   const onChangeVal2 = (e: React.ChangeEvent<HTMLInputElement>) => {
     setVal2(parseInt(e.target.value));
-    console.log(e.target.value);
   };
 
   const onChangeOperation = (e: React.ChangeEvent<HTMLSelectElement>) => {
     setOperation(parseInt(e.target.value));
-    console.log(e.target.value);
   };
 
   useEffect(() => {
